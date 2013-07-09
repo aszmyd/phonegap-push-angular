@@ -1,0 +1,25 @@
+{
+  "name": "angular-phonegap-push",
+  "description": "AngularJS module for PhoneGap push notifications",
+  "version": "0.1.0-dev",
+  "keywords": ["angular", "angularjs", "phonegap", "push"],
+  "homepage": "https://github.com/anim/angular-phonegap-push/",
+  "author": {
+    "name": "Anim Yeboah",
+    "url": "http://twitter.com/anim"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anim/angular-phonegap-push.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anim/angular-phonegap-push/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/anim/angular-phonegap-push/blob/master/LICENSE"
+    }
+  ],
+  "devDependencies": {}
+}
