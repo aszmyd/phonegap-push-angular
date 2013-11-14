@@ -5,6 +5,12 @@ Allows using the [PushPlugin](https://github.com/bobeast/PushPlugin) in [PhoneGa
 
 Provides a service for registering the device with the push notification server and listening for notifications.
 
+Requirements
+-------
+
+- PhoneGap 2.5
+- PushPlugin for PhoneGap 2.5 at https://github.com/bobeast/PushPlugin (not compatible with the new PushPlugin at https://github.com/phonegap-build/PushPlugin)
+
 Example
 -------
 
@@ -32,3 +38,8 @@ $scope.$on('phonegapPush.notification', function (notification) {
   // `notification.provider` either 'APNS' or 'GCM'
 });
 ```
+
+Emulator
+--------
+
+Note that the service will not work in an emulator since it depends on the PushPlugin, which only works on real devices.
