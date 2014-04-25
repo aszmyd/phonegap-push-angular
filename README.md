@@ -5,6 +5,13 @@ Allows using the [PushPlugin](https://github.com/bobeast/PushPlugin) in [PhoneGa
 
 Provides a service for registering the device with the push notification server and listening for notifications.
 
+Installation
+-------
+
+```
+bower install phonegap-push-angular
+```
+
 Requirements
 -------
 
